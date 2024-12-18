@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>This is application inner layer!</h1>
+<p>ここを押すとログアウトします</p>
+<a href="{{ url_for('revoke') }}">ログアウト</a>
+
+
+{% endblock %}
